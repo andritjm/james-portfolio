@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif
+    border-box: red;
 }
 
 :root {
@@ -73,3 +74,29 @@ header nav ul {
     padding-right: 10px;
     border-right: 5px solid grey;
 }
+
+#work {
+    display:flex;
+    justify-content: center;
+    margin: 25px 40px;
+}
+
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-project a img {
+    width:100%;
+}
+
+.image {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
